@@ -1,0 +1,14 @@
+{
+  "category": "performer",
+  "eventName": "Annual Corporate Night",
+  "eventType": "corporate",
+  "startDate": "2026-11-20",
+  "location": "Mumbai",
+  "performerType": "singer",
+  "genre": "Bollywood",
+  "durationMinutes": 90,
+  "audienceSize": 400,
+  "equipmentProvided": true,
+  "budgetMin": 50000,
+  "budgetMax": 100000
+}

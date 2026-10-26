@@ -1,0 +1,14 @@
+{
+  "category": "planner",
+  "eventName": "Sharma Wedding",
+  "eventType": "wedding",
+  "startDate": "2026-12-10",
+  "endDate": "2026-12-12",
+  "location": "Bengaluru",
+  "venue": "Grand Palace",
+  "servicesNeeded": ["decor", "catering"],
+  "planningScope": "full",
+  "guestCount": 300,
+  "budgetMin": 500000,
+  "budgetMax": 800000
+}

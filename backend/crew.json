@@ -1,0 +1,14 @@
+{
+  "category": "crew",
+  "eventName": "Music Fest 2026",
+  "eventType": "festival",
+  "startDate": "2026-12-01",
+  "location": "Goa",
+  "rolesNeeded": ["sound", "lighting", "security"],
+  "crewSize": 25,
+  "shiftHours": 10,
+  "experienceLevel": "intermediate",
+  "accommodationProvided": true,
+  "budgetMin": 2000,
+  "budgetMax": 4000
+}

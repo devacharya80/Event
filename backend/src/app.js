@@ -5,6 +5,8 @@ import morgan from "morgan";
 import rateLimit from "express-rate-limit";
 import { notFound, errorHandler } from "./middleware/errorHandler.js";
 
+import requirementRoutes from "./routes/requirement.routes.js";
+
 const app = express();
 
 app.use(helmet());
@@ -17,9 +19,9 @@ app.use(
   rateLimit({ windowMs: 15 * 60 * 1000, limit: 100, standardHeaders: true, legacyHeaders: false })
 );
 
-app.get("/api/health", (_req, res) => res.json({ status: "ok" }));
+app.use("/api/requirements", requirementRoutes);
 
-// requirement routes get mounted here in a later step
+app.get("/api/health", (_req, res) => res.json({ status: "ok" }));
 
 app.use(notFound);
 app.use(errorHandler);
